@@ -1,16 +1,47 @@
-# color_app
+# Aplicación Flutter - ColorApp
+<p>Esta es una aplicación que permite medir la capacidad de reacción mediante un juego de colores, el usuario podrá medir su capacidad, accediendo a diferentes opciones de juego y guardando su puntaje.</p>
 
-A new Flutter project.
+## Fucionamiento
+### Juego nuevo 
+<p>Encontraremos la vista del juego nuevo, que permitirá al usuario jugar con los valores predeterminados, también le permitirá guardar su nombre con el puntaje alcanzado y se mostrarán en pantalla los datos del juego conforme este avance, además de la opción de pausar el juego en cualquqier momento.
+</p>
 
-## Getting Started
+- `lib/views/nuevojuego.dart`
 
-This project is a starting point for a Flutter application.
+### Juego Personalizado 
+<p>En esta vista, el usuario podrá jugar con los valores que desee, permitiendole cambiar el tiempo de juego, el tiempo por palabra y el número de intentos, también se mostrarán en pantalla los datos del juego conforme este avance, además de la opción de pausar el juego en cualquqier momento.
+</p>
 
-A few resources to get you started if this is your first Flutter project:
+- `lib/views/juego_personalizado.dart`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### Mejores puntajes
+<p>El usuario podrá visualizar los mejores 5 puntajes, en esta vista se acceden a los datos cargados de Firestore (Firebase).
+</p>
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- `lib/views/mejores_puntajes.dart`
+
+## Ejecución del proyecto
+>Ejecuta en tu terminal o linea de comandos:
+	                    
+#### 1. Clonar el proyecto
+
+```bash
+git clone https://github.com/lessli3/ColorApp.git
+
+```
+#### 2. Instalación de dependencias
+   
+```bash
+flutter pub get
+
+```
+#### 3. Ejecutar aplicación
+   
+```bash
+flutter run
+```
+
+## Recomendaciones
+>Si decides trabajar con Firestore (Firebase) debes tener en cuenta que debes realizar el proceso de conexión al proyecto siguiendo las instrucciones detalladas que proporciona:
+	                    
+#### https://console.firebase.google.com/u/0/?hl=es-419
