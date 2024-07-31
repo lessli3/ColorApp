@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "254123447478",
+    "project_id": "colorapp-edc24",
+    "storage_bucket": "colorapp-edc24.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254123447478:android:8a84c4829c4b0616604217",
+        "android_client_info": {
+          "package_name": "com.example.color_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4yzta93ywMZch-44aVkNI9FxjtiBG7CY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:254123447478:android:fd5b84f0a5c60f71604217",
+        "android_client_info": {
+          "package_name": "com.example.color_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4yzta93ywMZch-44aVkNI9FxjtiBG7CY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
